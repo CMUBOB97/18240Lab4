@@ -67,7 +67,7 @@ module myExplicitFSM
                (q[3] & ~q[2] & ~q[1] & q[0]);
 
 endmodule: myExplicitFSM
-
+/*
 module myFSM_test
   (input logic [3:0] cMove,
    input logic win,
@@ -196,3 +196,4 @@ module top;
   myFSM_test    dut2 (.*);
 
 endmodule: top
+*/
